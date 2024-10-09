@@ -1,0 +1,22 @@
+package com.sparrow.Finance.dto;
+
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+public class AddOnDiscountDTO {
+	
+    
+    private Long feeHeadId;
+    private String feeHeadName;
+    private Double feeAmount;
+    private Double discount;
+    private Long discountHeadId;
+    private String discountHeadName;
+
+}
